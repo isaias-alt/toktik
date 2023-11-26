@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toktik/presentation/widgets/video/video_background.dart';
 import 'package:video_player/video_player.dart';
 
 class FullScreenPlayer extends StatefulWidget {
@@ -55,7 +56,8 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
                     left: 20,
                     child: _VideoCaption(
                       caption: widget.caption,
-                    ))
+                    )),
+                VideoBackgrond(stops: const [0.8, 1.0]),
               ],
             ),
           ),
@@ -67,7 +69,7 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
 
 class _VideoCaption extends StatelessWidget {
   final String caption;
-  const _VideoCaption({super.key, required this.caption});
+  const _VideoCaption({required this.caption});
 
   @override
   Widget build(BuildContext context) {
