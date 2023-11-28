@@ -2,6 +2,23 @@
 
 A new Flutter project.
 
+## Important
+
+You can download 8 videos from here
+[Pexels Free Videos](https://www.pexels.com/search/videos/vertical/)
+
+Rename those videos like that, as it is what is found in the data source, and place them in the folder /assets/videos/.
+```
+1.mp4
+2.mp4
+3.mp4
+4.mp4
+5.mp4
+6.mp4
+7.mp4
+8.mp4
+```
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
